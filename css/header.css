@@ -1,0 +1,33 @@
+/*HEADER
+STYLESHEET*/
+
+.text_highlight {
+    color: #b4ae00;
+}
+
+.custom_logo {
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #8ed2ef, #13678b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 10px;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    z-index: 10;
+    background: rgba(199, 198, 198, 0.2);
+    height: 120px;
+    box-shadow: 4px 4px 9px 2px rgba(0, 0, 0, 0.4);
+}
+
+.navbar .nav-link {
+    font-size: 16px;
+    margin-left:30px;
+    color: #000000;
+}
+
+.btn {
+    margin: 0 10px;
+}
