@@ -21,19 +21,19 @@
                         <h3>Create Account</h3>
                         <form class="home_form">
                             <div class="form-floating">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
                                 <label name="name" class="form-label">NAME</label>
                             </div>
                             <div class="form-floating">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" id="uname" placeholder="Name">
                                 <label name="uname" class="form-label">USERNAME</label>
                             </div>
                             <div class="form-floating">
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
                                 <label name="email" class="form-label">EMAIL ADDRESS</label>
                             </div>
                             <div class="form-floating">
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
                                 <label name="password" class="form-label">PASSWORD</label>
                             </div>
                             <div class="form-group">
@@ -43,7 +43,7 @@
                                     <option>DOCTOR</option> <!-- IF USER IS DOCTOR -->
                                 </select>
                             </div>
-                            <button class="btn btn-primary">REGISTER</button> <!-- BUTTON FOR REGISTRATION -->
+                            <button class="btn btn-primary" id="regbutton">REGISTER</button> <!-- BUTTON FOR REGISTRATION -->
                             <a class="btn btn-light" href="index.php">RETURN</a>
                         </form>
                     </div>  
@@ -55,5 +55,6 @@
             </div>
         </div>
     </section>
+    <script src="scripts/registration.js"></script>
 </body>
 </html>
