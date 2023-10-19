@@ -26,7 +26,7 @@ function registerPatient() {
             formData.append("email", email.value);
             formData.append("password", password.value);
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "register_user.php", true);
+            xhr.open("POST", "scripts/php/register_user.php", true);
             xhr.onreadystatechange = function() {
                 if(xhr.readyState === 4 && xhr.status === 200) {
                     const response = xhr.responseText;
@@ -61,7 +61,7 @@ function registerDoctor() {
             formData.append("email", email.value);
             formData.append("password", password.value);
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "register_user.php", true);
+            xhr.open("POST", "scripts/php/register_user.php", true);
             xhr.onreadystatechange = function() {
                 if(xhr.readyState === 4 && xhr.status === 200) {
                     const response = xhr.responseText;

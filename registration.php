@@ -55,6 +55,6 @@
             </div>
         </div>
     </section>
-    <script src="scripts/registration.js"></script>
+    <script src="scripts/javascript/registration.js"></script>
 </body>
 </html>

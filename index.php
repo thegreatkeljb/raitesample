@@ -21,14 +21,14 @@
                         <h3>Login</h3>
                         <form class="home_form">
                             <div class="form-floating">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" id="uname" placeholder="Name">
                                 <label name="uname" class="form-label">USERNAME</label>
                             </div>
                             <div class="form-floating">
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
                                 <label name="password" class="form-label">PASSWORD</label>
                             </div>
-                            <button class="btn btn-primary">LOGIN</button> <!-- TO LOGIN -->
+                            <button class="btn btn-primary" id="loginbutton">LOGIN</button> <!-- TO LOGIN -->
                             <a class="btn btn-light" href="registration.php">REGISTER</a>
                         </form>
                     </div>  
@@ -40,5 +40,6 @@
             </div>
         </div>
     </section>
+    <script src="scripts/javascript/login.js"></script>
 </body>
 </html>

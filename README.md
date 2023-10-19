@@ -9,8 +9,8 @@
    - Doctor must have better privileges than patient
 
 TO DO:
-Registration logic with password encryption
-Login logic with password encryption
-Database connection
+Registration logic with password encryption (DONE)
+Login logic with password encryption (DONE)
+Database connection (DONE)
 
 Pa-PM na lang din po yung mga gagamitin mong tech para makasabay ako kuys.

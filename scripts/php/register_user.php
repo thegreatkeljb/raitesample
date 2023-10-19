@@ -1,9 +1,5 @@
 <?php
-    // database
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "raitesample";
+    require("database.php");
     // variables
     $state = "";
     $response = "";
